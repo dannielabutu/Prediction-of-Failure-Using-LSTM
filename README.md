@@ -28,13 +28,13 @@ git lfs track "data/processed/*"
 git add .gitattributes
 git commit -m "Enable Git LFS"
 
-Notebooks
+# Notebooks
 
 	•	Creating_data.ipynb: Merges and consolidates raw data into a single CSV file.
 	•	Data_Cleaning_preprocessing.ipynb: Cleans and processes the dataset for modeling.
 	•	LSTM_model.ipynb: Implements and trains an LSTM-based failure prediction model.
 
-Usage
+# Usage
 
 Run the Jupyter notebooks step by step or convert them to scripts in the src/ directory.
 
@@ -42,6 +42,6 @@ Contributing
 
 Feel free to submit pull requests or report issues.
 
-License
+# License
 
 MIT License
