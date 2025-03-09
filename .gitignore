@@ -1,0 +1,18 @@
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore large data files (handled via Git LFS)
+data/raw/*
+data/processed/*
+
+# Ignore virtual environment
+venv/
+__pycache__/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and temporary files
+logs/
+*.log
